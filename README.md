@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `AMD_12h.csv` (142 rows, `2026-02-09` -> `2026-09-01`, 8.51 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/amd)** — **1,353** `12h` rows (full `1m`: 526,381), **11 timeframes**, `2021-04-13` -> `2026-09-01`.
+> **Sample on GitHub** · `AMD_12h.csv` (77 rows, `2026-05-13` -> `2026-09-01`, 7.58 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/amd)** — **1,353** `12h` rows (full `1m`: 525,821), **11 timeframes**, `2021-04-13` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Advanced Micro Devices · US stocks | Advanced Micro Devices · US stocks |
 | Timeframes | `12h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 12h rows | 142 | **1,353** |
-| Size | 8.51 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/amd) |
-| Period | `2026-02-09` -> `2026-09-01` | `2021-04-13` -> `2026-09-01` |
+| 12h rows | 77 | **1,353** |
+| Size | 7.58 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/amd) |
+| Period | `2026-05-13` -> `2026-09-01` | `2021-04-13` -> `2026-09-01` |
 | File | `AMD_12h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/amd) |
 | Coverage report | — | [AMD coverage](https://getdata.finance/coverage/amd) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`AMD_12h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-09T12:00:00+00:00 | 208.15 | 217.42 | 203.99 | 215.65 | 47108 |
-| 2026-02-10T12:00:00+00:00 | 215.65 | 219.15 | 212.97 | 213.51 | 42373 |
-| 2026-02-11T12:00:00+00:00 | 213.51 | 219.41 | 208.98 | 213.2 | 65631 |
-| 2026-02-12T12:00:00+00:00 | 213.2 | 218.22 | 204.96 | 205.75 | 69667 |
-| 2026-02-13T12:00:00+00:00 | 205.75 | 209.75 | 203.79 | 207.18 | 67691 |
+| 2026-05-13T12:00:00+00:00 | 448 | 458.82 | 432.3 | 445.13 | 44970.13283 |
+| 2026-05-14T12:00:00+00:00 | 445.13 | 452.86 | 435.38 | 449.46 | 48866 |
+| 2026-05-15T12:00:00+00:00 | 449.46 | 449.46 | 423.13 | 424.31 | 42470.62219 |
+| 2026-05-18T12:00:00+00:00 | 424.31 | 438.31 | 410.42 | 420.85 | 41573 |
+| 2026-05-19T12:00:00+00:00 | 420.85 | 428.05 | 393.19 | 414.39 | 50452 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-26T12:00:00+00:00 | 478.93 | 490.69 | 473.65 | 481.63 | 21830 |
-| 2026-08-27T12:00:00+00:00 | 480.96 | 481.89 | 469.43 | 476.54 | 26524 |
-| 2026-08-28T12:00:00+00:00 | 476.54 | 478.55 | 465.08 | 465.48 | 43984 |
-| 2026-08-31T12:00:00+00:00 | 465.48 | 475.12 | 463.51 | 469.88 | 28258 |
-| 2026-09-01T12:00:00+00:00 | 469.88 | 469.88 | 452.14 | 459.54 | 31933 |
+| 2026-08-26T12:00:00+00:00 | 479.01 | 490.77 | 473.73 | 481.39 | 32605 |
+| 2026-08-27T12:00:00+00:00 | 481.39 | 482.32 | 469.45 | 476.56 | 36624 |
+| 2026-08-28T12:00:00+00:00 | 476.56 | 478.57 | 465.1 | 465.5 | 43984 |
+| 2026-08-31T12:00:00+00:00 | 465.5 | 475.14 | 463.53 | 469.9 | 28258 |
+| 2026-09-01T12:00:00+00:00 | 469.9 | 469.9 | 452.16 | 459.56 | 31933 |
 
 ## Schema
 
